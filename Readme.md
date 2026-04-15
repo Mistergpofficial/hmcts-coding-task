@@ -43,5 +43,5 @@ The system is built using Laravel for the backend and Blade with vanilla JavaScr
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd hmcts-task-manager
+git clone <repo-url>
+cd hmcts-coding-task
