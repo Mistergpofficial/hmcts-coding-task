@@ -218,7 +218,24 @@ Feature tests are included in:
 tests/Feature/TaskApiTest.php
 ```
 
-### Run tests
+## Testing
+
+Feature tests are included in:
+
+```
+tests/Feature/TaskApiTest.php
+```
+
+### Run all tests
 ```bash
 php artisan test
 ```
+
+### Run only the TaskApiTest
+If you want to run just the tests for this feature instead of the entire suite, you can filter by the test class name.
+
+```bash
+php artisan test --filter=TaskApiTest
+```
+
+This is useful when you are working on one part of the system and want quicker feedback.
